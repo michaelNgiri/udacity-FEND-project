@@ -1,4 +1,18 @@
 /* add your CSS here */
-body{
+.container{
 	border: 1px solid #f3f3f3;
+	z-index: 10px;
+	width: 1110px;
+	margin-left: 6em;
+}
+.title{
+	color: brown;
+}
+.label{
+	color: grey;
+	font-style: geramond;
+	font-size: 2em;
+}
+body{
+	margin: auto;
 }
