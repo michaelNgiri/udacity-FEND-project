@@ -16,6 +16,7 @@
 	color: grey;
 	font-style: geramond;
 	font-size: 2em;
+	font-style: bold;
 }
 body{
 	margin: auto;
@@ -28,4 +29,23 @@ legend{
 }
 ul {
   list-style: none;
+}
+pre{
+	margin-top: -1em;
+    white-space: pre-line;
+    background: #f3f3f3;
+    padding-top: 2em;
+    font-style: normal;
+    font-family: geramond;
+    font-size: 17px;
+    border: 2em;
+    margin: 4px;
+}
+.text{
+	font-style: italic;
+	font-size: 1.2em;
+}
+.image{
+	border: 1px solid brown;
+	border-radius: 1em;
 }
