@@ -1,12 +1,16 @@
 /* add your CSS here */
 .container{
-	border: 1px solid #f3f3f3;
+	/*border: 1px solid #f3f3f3;*/
 	z-index: 10px;
 	width: 1110px;
 	margin-left: 6em;
 }
 .title{
 	color: brown;
+	padding: 1.2em;
+	background: #f3f3f3;
+	border-radius: 4px;
+	border: 0.6px solid grey;
 }
 .label{
 	color: grey;
@@ -15,4 +19,13 @@
 }
 body{
 	margin: auto;
+}
+fieldset{
+	border-radius: 1em;
+}
+legend{
+	position: center;
+}
+ul {
+  list-style: none;
 }
